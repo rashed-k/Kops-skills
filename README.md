@@ -73,6 +73,23 @@ sudo chmod +x /usr/local/bin/kops
 
 # Create s3 bucket 
 
+```
+aws s3 mb s3://<unique-bucket-name>
+```
+
+# environment variables
+
+Check the type of your shell before editing, in this case it's bash. 
+
+```
+vi .bashrc
+
+```
+Add unique name and s3 bucket in the file - 
+
+```
+export NAME=rashedk.k8s.local  #kubernetes cluster name
+export KOPS_STATE_STORE=s3://rashedk.k8s.local
 
 
 
