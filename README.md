@@ -88,8 +88,9 @@ vi .bashrc
 Add unique name and s3 bucket in the file - 
 
 ```
-export NAME=rashedk.k8s.local  #kubernetes cluster name
+export NAME=rashedk.k8s.local  <!-- kubernetes cluster name -->
 export KOPS_STATE_STORE=s3://rashedk.k8s.local
+```
 
 
 
