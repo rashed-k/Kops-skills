@@ -4,8 +4,8 @@
 ## I am going to begin with v1.23.2 of KOPS.
 
 # Prerequisite to install
- - AWS CLI 
- - Kubectl
+ - AWS CLI (url -https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html )
+ - Kubectl (url - https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
 # Breaking news from KOPS - 
 Support for Kubernetes version 1.17 has been removed.
@@ -27,7 +27,7 @@ Support for Ubuntu 16.04 (Xenial) has been removed.
 Cilium now has disable-cnp-status-updates: true by default. Set this to false if you rely on the CiliumNetworkPolicy status fields.
 
 
-# Create IAM role for instance with permissions and attach once instance is created -
+# Create IAM role for instance with permissions shown below and attach once instance is created -
   -AmazonEC2FullAccess
   <br />
   -AmazonRoute53FullAccess
@@ -70,6 +70,9 @@ sudo mv kops-linux-amd64  /usr/local/bin/kops
 
 sudo chmod +x /usr/local/bin/kops
 ```  
+
+# Create s3 bucket 
+
 
 
 
