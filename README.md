@@ -107,10 +107,12 @@ The following command will only generate the files required to create a cluster.
 Kops Networking Overview  - https://kops.sigs.k8s.io/networking/
 
 ```
-kops create cluster --zones us-east-1a,us-east-1b --networking weave  --master-size t2.medium --master-count 1 --node-size t2.micro --node-count=2 ${NAME}
+kops create cluster --zones us-east-1a,us-east-1b --networking calico  --master-size t2.medium --master-count 1 --node-size t2.micro --node-count=2 ${NAME}
 
 kops create secret --name ${NAME} sshpublickey admin -i ~/.ssh/id_rsa.pub
 ```
+<br />
+Once the command has been successfully completed files can viewed in s3 bucket.
 
 
 
