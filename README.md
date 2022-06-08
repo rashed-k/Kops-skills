@@ -24,12 +24,14 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
 
 
 # Create IAM role for instance with permissions - 
-AmazonEC2FullAccess
-AmazonRoute53FullAccess
-AmazonS3FullAccess
-IAMFullAccess
-AmazonVPCFullAccess
-AmazonSQSFullAccess
-AmazonEventBridgeFullAccess
+  -AmazonEC2FullAccess
+  -AmazonRoute53FullAccess
+  -AmazonS3FullAccess
+  -IAMFullAccess
+  -AmazonVPCFullAccess
+  -AmazonSQSFullAccess
+  -AmazonEventBridgeFullAccess
+
+
 
 
