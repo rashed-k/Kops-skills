@@ -92,6 +92,14 @@ export NAME=rashedk.k8s.local  /* kubernetes cluster name
 export KOPS_STATE_STORE=s3://rashedk.k8s.local
 ```
 
+# Generate ssh-keys
+
+The ssh-keys generated will be copied later to Master and Worker nodes. These nodes will be created by AWS Autoscaling Group by Kops-server aws command, hence this ssh-key gen will help to gain access to node machines.
+
+```
+ssh-keygen
+```
+
 
 
 
