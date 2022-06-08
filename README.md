@@ -67,7 +67,7 @@ file -  kops-linux-amd64
 wget https://github.com/kubernetes/kops/releases/download/v1.23.2/kops-linux-amd64
 ```  
 
-# Move to the file to /usr/local/bin/kops
+# Move the file to /usr/local/bin/kops
 
 ```
 sudo mv kops-linux-amd64  /usr/local/bin/kops
