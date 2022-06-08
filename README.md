@@ -1,9 +1,13 @@
-#Let's begin exploring "KOPS"
+## Let's begin exploring "KOPS"
 
 
-#I am going to begin with v1.23.2 of KOPS.
+## I am going to begin with v1.23.2 of KOPS.
 
-# Points to be noted - 
+# Prerequisite
+ - AWS CLI 
+ - Kubectl
+
+# Breaking news from KOPS - 
 Support for Kubernetes version 1.17 has been removed.
 
 Support for the Lyft CNI has been removed.
@@ -45,17 +49,13 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
   <br />
            Chassis: vm 
            <br />
-        Machine ID: 2d99ef724dce45369047869bf2504a0b 
-        <br />
-           Boot ID: 9666ed65a0de48c89b72e81e54ba4a8e
-           <br /> 
     Virtualization: xen
     <br /> 
-  Operating System: Amazon Linux 2 
+  Operating System: Red Hat Enterprise Linux 8.6 (Ootpa) 
   <br />
-       CPE OS Name: cpe:2.3:o:amazon:amazon_linux:2
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:8::baseos
        <br /> 
-            Kernel: Linux 5.10.109-104.500.amzn2.x86_64
+            Kernel: Linux 4.18.0-372.9.1.el8.x86_64
             <br /> 
       Architecture: x86-64 
 
