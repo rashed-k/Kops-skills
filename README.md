@@ -102,6 +102,10 @@ ssh-keygen
 
 # Create kubernetes cluster definitions on s3 bucket
 
+The following command will only generate the files required to create a cluster. 
+<br />
+Kops Networking Overview  - https://kops.sigs.k8s.io/networking/
+
 ```
 kops create cluster --zones us-east-1a,us-east-1b --networking weave  --master-size t2.medium --master-count 1 --node-size t2.micro --node-count=2 ${NAME}
 
