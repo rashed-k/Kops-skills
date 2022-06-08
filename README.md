@@ -34,15 +34,15 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
 
 
 # Create ec2 Instance for Kops-workstation
-  Icon name: computer-vm
-           Chassis: vm
-        Machine ID: 2d99ef724dce45369047869bf2504a0b
-           Boot ID: 9666ed65a0de48c89b72e81e54ba4a8e
-    Virtualization: xen
-  Operating System: Amazon Linux 2
-       CPE OS Name: cpe:2.3:o:amazon:amazon_linux:2
-            Kernel: Linux 5.10.109-104.500.amzn2.x86_64
-      Architecture: x86-64
+  Icon name: computer-vm /
+           Chassis: vm /
+        Machine ID: 2d99ef724dce45369047869bf2504a0b /
+           Boot ID: 9666ed65a0de48c89b72e81e54ba4a8e /
+    Virtualization: xen /
+  Operating System: Amazon Linux 2 /
+       CPE OS Name: cpe:2.3:o:amazon:amazon_linux:2 /
+            Kernel: Linux 5.10.109-104.500.amzn2.x86_64 /
+      Architecture: x86-64 /
   
   
 
