@@ -1,9 +1,9 @@
-## Let's begin exploring "KOPS"
+## Let's begin exploring "KOPS in AWS"
 
 
 ## I am going to begin with v1.23.2 of KOPS.
 
-# Prerequisite
+# Prerequisite to install
  - AWS CLI 
  - Kubectl
 
@@ -60,18 +60,18 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
       Architecture: x86-64 
 
 
-# Install Binary
+# Install Kops
 file -  kops-linux-amd64
 
 ```
 wget https://github.com/kubernetes/kops/releases/download/v1.23.2/kops-linux-amd64
+
+sudo mv kops-linux-amd64  /usr/local/bin/kops
+
+sudo chmod +x /usr/local/bin/kops
 ```  
 
-# Move the file to /usr/local/bin/kops
 
-```
-sudo mv kops-linux-amd64  /usr/local/bin/kops
-```
 
 
 
