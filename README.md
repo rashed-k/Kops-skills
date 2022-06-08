@@ -39,7 +39,8 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
   -AmazonEventBridgeFullAccess
 
 
-# Create ec2 Instance for Kops-workstation
+# Create ec2 Instance for Kops-workstation 
+## You can choose any instance type as long it's supported
   Icon name: computer-vm 
   <br />
            Chassis: vm 
@@ -57,6 +58,10 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
             Kernel: Linux 5.10.109-104.500.amzn2.x86_64
             <br /> 
       Architecture: x86-64 
+
+
+# Install Binary
+with 'wget https://github.com/kubernetes/kops/releases/download/v1.23.2/channels-linux-amd64'
   
   
 
