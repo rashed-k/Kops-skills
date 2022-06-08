@@ -27,7 +27,7 @@ Support for Ubuntu 16.04 (Xenial) has been removed.
 Cilium now has disable-cnp-status-updates: true by default. Set this to false if you rely on the CiliumNetworkPolicy status fields.
 
 
-# Create IAM role for instance with permissions -
+# Create IAM role for instance with permissions and attach once instance is created -
   -AmazonEC2FullAccess
   <br />
   -AmazonRoute53FullAccess
