@@ -61,9 +61,12 @@ Cilium now has disable-cnp-status-updates: true by default. Set this to false if
 
 
 # Install Binary
-with 'wget https://github.com/kubernetes/kops/releases/download/v1.23.2/channels-linux-amd64'
+with 
+
+'''
+wget https://github.com/kubernetes/kops/releases/download/v1.23.2/channels-linux-amd64'
   
-  
+'''  
 
 
 
