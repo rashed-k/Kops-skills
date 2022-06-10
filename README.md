@@ -112,7 +112,7 @@ kops create cluster --zones us-east-1a,us-east-1b --networking calico  --master-
 kops create secret --name ${NAME} sshpublickey admin -i ~/.ssh/id_rsa.pub
 ```
 <br />
-Once the command has been successfully completed files can viewed in s3 bucket.
+Once the command has been successfully completed, files can viewed in s3 bucket.
 
 
 
