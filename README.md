@@ -114,14 +114,14 @@ kops create secret --name ${NAME} sshpublickey admin -i ~/.ssh/id_rsa.pub
 <br />
 Once the command has been successfully completed, files can viewed in s3 bucket.
 
-# Build the Cluster¶
+# Build the Cluster
 Now we take the final step of actually building the cluster. This'll take a while. Once it finishes you'll have to wait longer while the booted instances finish downloading Kubernetes components and reach a "ready" state.
 <br />
 ```
 kops update cluster --name ${NAME} --yes
 ```
 
-# Delete the Cluster¶
+# Delete the Cluster
 Running a Kubernetes cluster within AWS obviously costs money, and so you may want to delete your cluster if you are finished running experiments.
 
 ```
